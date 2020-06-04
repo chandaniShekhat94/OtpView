@@ -1,0 +1,5 @@
+<resources>
+    <string name="ov_app_name">OTPTextView</string>
+    <string name="ov_resend">Resend</string>
+    <string name="ov_verify">Verify</string>
+</resources>

@@ -1,0 +1,3 @@
+rootProject.name='OtpViewControl'
+include ':app'
+include ':customotpview'

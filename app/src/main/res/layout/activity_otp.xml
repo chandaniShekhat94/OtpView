@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".OtpActivity">
+
+    <include
+        android:id="@+id/toolBar"
+        layout="@layout/layout_toolbar" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardElevation="@dimen/_4sdp"
+        android:layout_margin="@dimen/_12sdp"
+        android:layout_below="@+id/toolBar">
+
+        <com.customotpview.OtpView
+            android:id="@+id/otpView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            app:bar_height="@dimen/_2sdp"
+            app:bar_margin_bottom="@dimen/_0sdp"
+            app:bar_margin_left="@dimen/_2sdp"
+            app:bar_margin_right="@dimen/_2sdp"
+            app:box_margin="@dimen/_0sdp"
+            app:height="@dimen/_30sdp"
+            app:hide_otp="false"
+            app:length="6"
+            app:otp=""
+            app:otp_text_size="@dimen/_20sdp"
+            app:width="@dimen/_30sdp"
+            app:text_title="Please enter your otp here to verify your mobile number"
+            app:text_number="+91 9999999999"
+            app:otp_box_background="@drawable/rounded_white_bg_square"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

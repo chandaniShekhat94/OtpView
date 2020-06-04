@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OtpViewControl</string>
+    <string name="go_to_otp">Redirect To Otp Screen</string>
+    <string name="str_enter_valid_input">Please enter valid mobile number/email address</string>
+    <string name="str_enter_input">Please enter mobile number/email address</string>
+    <string name="str_msg_1">Please enter your otp here to verify your email</string>
+    <string name="str_msg_2">Please enter your otp here to verify your mobile number</string>
+    <string name="str_user_details">Enter Your Details</string>
+    <string name="str_verify">Verify Phone/Email</string>
+    <string name="choose_one_shape_in_which_you_want_to_display_otp">Choose one shape in which you want to display OTP</string>
+    <string name="line">Line</string>
+    <string name="square">Square</string>
+    <string name="circle">Circle</string>
+    <string name="str_timer_end">Timer gets ended</string>
+    <string name="str_otp_is">The OTP is %1$s</string>
+    <string name="str_verify_click">Verify Performed</string>
+</resources>
