@@ -2,7 +2,7 @@
 A custom control to enter a X number of digits depending on the set pin length.
 
 <p align="center">
-<img alt="OtpView" src="https://github.com/chandaniShekhat94/OtpViewControl/blob/master/otpview.gif" width = "300" height = "633"  class="center"/>
+<img alt="OtpView" src="https://github.com/chandaniShekhat94/OtpView/blob/master/otpview.gif" width = "300" height = "633"  class="center"/>
 </p>
 
 # Use Case
